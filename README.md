@@ -7,15 +7,17 @@ It is a frontend for single page application. Reach JavaScript is present.
 Example of frontend launch on Linux, Python 3.5:
 
 ```bash
-cd static/
-python3 -m http.server
+cd static
+python3 -m http.server 9000
 ```
 
-Open page [127.0.0.1:8000](http://127.0.0.1:8000) in browser.
+Open page [localhost:9000](http://localhost:9000) in browser.
 
 # Deploy on production server
 
-[TODO. Deploy scripts will written later]
+You have to register yourself and after you will be redirected to car page
+
+It is possible to test by HTTPie or another tool which can check headers
 
 # Project Goals
 
